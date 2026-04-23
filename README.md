@@ -186,3 +186,38 @@ This is not just a “generator”.
 It’s a way to turn Claude into a serious web design tool.
 
 ⸻
+
+## 📦 Installation
+
+### Option 1 — Download the `.skill` file
+
+1. Download `no-generic-web.skill` from [Releases](https://github.com/santiagojuncal/-claude-no-generic-web/releases)
+2. Extract it into your Claude skills folder:
+
+**Windows:**
+```cmd
+mkdir %USERPROFILE%\.claude\skills\no-generic-web
+tar -xf no-generic-web.skill -C %USERPROFILE%\.claude\skills\no-generic-web
+```
+
+**Mac / Linux:**
+```bash
+mkdir -p ~/.claude/skills/no-generic-web
+unzip no-generic-web.skill -d ~/.claude/skills/no-generic-web
+```
+
+### Option 2 — Clone with Git
+
+**Windows:**
+```cmd
+git clone https://github.com/santiagojuncal/-claude-no-generic-web %USERPROFILE%\.claude\skills\no-generic-web
+```
+
+**Mac / Linux:**
+```bash
+git clone https://github.com/santiagojuncal/-claude-no-generic-web ~/.claude/skills/no-generic-web
+```
+
+3. Restart Claude Code — the skill loads automatically.
+
+⸻
